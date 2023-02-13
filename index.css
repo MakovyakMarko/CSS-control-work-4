@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: gold;
+  padding-bottom: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.reloadlink {
+  text-decoration: none;
+  color: black;
+}
+.headerh1 {
+  display: inline;
+}
+.headernav {
+  display: inline;
+  position: relative;
+  left: 50%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.headerlink {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.headerlink:hover {
+  padding-bottom: 10px;
+  border-bottom: 5px solid red;
+}
+
+.site2section {
+  margin: 0;
+  background-color: lightblue;
+  background-size: cover;
+  color: gold;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 100px;
+}
+.sitetwosectionheader {
+  padding-top: 50px;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 0 0 3px black, 3px 3px 7px blue;
+  padding-bottom: 50px;
+}
+.site2sectiondiv {
+}
+.sitetwosectionnav {
+  text-align: center;
+}
+.sitetwosectionlink {
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+  margin-right: 20px;
+  background-color: blue;
+  text-shadow: 0 0 3px black;
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.sitetwosectionlink:hover {
+  text-decoration: underline;
+  border: 2px solid white;
+  outline: 3px solid gold;
+}
+.sitethreesection {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.sitethreesectiondiv {
+  width: 100%;
+}
+.sitethreesectionh1 {
+  font-size: 2rem;
+}
+.sitethreenav {
+}
+.sitethreesectionlink {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  border: 2px solid gold;
+  text-decoration: none;
+  border-radius: 5px;
+  outline: 1px solid black;
+  font-size: 1.5rem;
+  width: 20%;
+}
